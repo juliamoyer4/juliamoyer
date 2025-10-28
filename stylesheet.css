@@ -50,3 +50,17 @@ nav a:visited{
 li {
     line-height: 1.6;
 }
+#memuImg1 {
+    float: left; 
+    width: 450px; 
+    margin-right: 20px; 
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.clickable {
+    text-align: center;
+    margin-left: 50px;
+    background-color: #abcee4;
+    width: 200px;
+    border-radius: 16px;
+}
