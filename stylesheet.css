@@ -4,7 +4,7 @@
     text-align: left;
 }
 html {
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
 body {
     width: 75%;
@@ -15,6 +15,7 @@ body {
 a {
     text-decoration: none;
     text-align: center;
+    justify-content: center;
 }
 nav {
     position: relative;
@@ -59,7 +60,22 @@ li {
     width: 450px; 
     margin-right: 20px; 
     border-radius: 10px;
+    margin-bottom: 13px;
+}
+#memuImg2 {
+    float: right;
+    width: 450px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+#memuImg3 {
+    float: left;
+    width: 450px;
     margin-bottom: 8px;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 .clickable-container {
     display: flex;
@@ -69,6 +85,9 @@ li {
 }
 .clickable {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     text-decoration: none;
     margin-left: 50px;
     background-color: #abcee4;
@@ -78,10 +97,98 @@ li {
     padding: 5px;
 }
 .clickable img {
-  border-radius: 16px;
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  margin-top: 5px;
-  display: block; 
+    border-radius: 16px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    display: block; 
+}
+h3 {
+    text-align: center;
+}
+#PictureOfMe {
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#catHailey {
+    clear: both;
+    display: block;
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#catFlora {
+    display: block;
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#catTuxedo {
+    display: block;
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#memlib1 {
+    float: left; 
+    width: 300px; 
+    margin-right: 20px; 
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+#memlib2 {
+    float: right;
+    width: 275px; 
+    margin-right: 20px; 
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+#memlib3 {
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+#usouth1 {
+    float: right;
+    width: 550px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+#usouth2 {
+    float: left;
+    width: 350px;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+#usouth3 {
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+a.underlined {
+    text-decoration: underline !important;
+}
+dl {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 5px;
 }
