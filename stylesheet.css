@@ -1,0 +1,52 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0c1f38;
+    text-align: left;
+}
+html {
+  overflow-y: scroll;
+}
+body {
+    width: 75%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ebe8e2;
+}
+nav {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #abcee4;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+#content {
+    overflow: auto;
+    height: 100%;
+}
+.column1, .column2, .column3 {
+    float: left;
+    margin: 10px;
+}
+header {
+    line-height: 1.6;
+}
+nav a {
+    margin: 5px;
+    color: #0c1f38;
+    text-decoration: none;
+}
+nav a:visited{
+    background-color: #2f5689;
+}
+li {
+    line-height: 1.6;
+}
