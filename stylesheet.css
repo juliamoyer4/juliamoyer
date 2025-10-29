@@ -72,7 +72,7 @@ li {
 }
 #memuImg3 {
     float: left;
-    width: 450px;
+    width: 400px;
     margin-bottom: 8px;
     border-radius: 10px;
     margin-right: 20px;
@@ -94,7 +94,8 @@ li {
     width: 400px;
     border-radius: 16px;
     margin-top: 3px;
-    padding: 5px;
+    padding: 15px;
+    padding-inline: 20px;
 }
 .clickable img {
     border-radius: 16px;
@@ -117,25 +118,28 @@ h3 {
     clear: both;
     display: block;
     float: left;
-    width: 300px;
-    margin-top: 15px;
-    margin-right: 20px;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    align-self: center;
     border-radius: 10px;
 }
 #catFlora {
     display: block;
     float: left;
-    width: 300px;
-    margin-top: 15px;
-    margin-right: 20px;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    align-self: center;
     border-radius: 10px;
 }
 #catTuxedo {
     display: block;
     float: left;
-    width: 300px;
-    margin-top: 15px;
-    margin-right: 20px;
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    align-self: center;
     border-radius: 10px;
 }
 #memlib1 {
@@ -187,8 +191,31 @@ h3 {
 a.underlined {
     text-decoration: underline !important;
 }
-dl {
-    list-style-type: disc;
-    margin-left: 20px;
-    padding-left: 5px;
+.cats {
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #abcee4;
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    margin-top: 25px;
+    padding: 10px;
+}
+.catsText {
+    margin-left: 16px;
+}
+#catBox {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#memuText {
+    margin-bottom: 50px;
+}
+#memuText2 {
+    margin-top: 200px;
 }
